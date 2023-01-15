@@ -1,0 +1,14 @@
+body {
+    background-color: #DFABB2;
+    text-align: center;
+    border: 2px solid #790350;
+    margin:250px;
+}
+
+h1 {
+    color: #060606;
+}
+
+p {
+    color: #000000;
+}

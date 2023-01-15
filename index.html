@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html dir="rtl" lang="fa-IR">
+    <head>
+        <title>فرم</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="html form">
+        <link rel="stylesheet" href="css/form.css">
+    </head>
+<!-- body  -->
+<body>
+    <!-- main  -->
+    <main>
+        <h1>
+            فرم درخواست
+        </h1>
+        <p>
+            لطفا فرم زیر را تکمیل نمایید:
+        </p>
+        <!-- form  -->
+        <form>
+            <!-- name -->
+            <label for="fname">نام:</label><br>
+                <input type="text" id="fname" name="fname" required autofocus><br><br>
+            <label for="lname">نام خانوادگی:</label><br>
+                <input type="text" id="lname" name="lname" required ><br><br>
+            <label for="pwd">پسورد:</label><br>
+                <input type="password" id="pwd" name="pwd" required ><br><br>
+            <label for="quantity">سن خود را وارد کنید:</label><br>
+                <input type="number" id="quantity" name="quantity" min="1" max="100" required ><br><br>
+            <label for="phone">شماره تماس خود را وارد کنید:</label><br>
+                <input type="tel" id="phone" name="phone" placeholder="123-45-678" required ><br><br>
+            <input type="radio" id="Female" name="fav_language" value="Female">
+                <label for="Female">زن</label>
+            <input type="radio" id="Man" name="fav_language" value="Man">
+                <label for="Man">مرد</label>
+            <input type="radio" id="othere" name="fav_language" value="I prefer not to say">
+                <label for="othere">دیگر...</label><br><br>
+            <input type="submit" value="ارسال"><br><br>
+        </form>
+    </main>
+    <!-- end main  -->
+</body>
+<!-- end body  -->
+</html>
